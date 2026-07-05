@@ -404,16 +404,20 @@ a:hover {
 }
 
 .contact-card {
+    display: block;
     text-align: center;
     padding: var(--spacing-lg);
     border-radius: var(--border-radius-lg);
     background: var(--color-gray-100);
     transition: all var(--transition);
+    text-decoration: none;
+    color: inherit;
 }
 
 .contact-card:hover {
     background: var(--color-white);
     box-shadow: var(--shadow-md);
+    color: var(--color-primary);
 }
 
 .contact-icon {
@@ -436,12 +440,12 @@ a:hover {
     margin-bottom: var(--spacing-xs);
 }
 
-.contact-card a {
+.contact-card span {
     color: var(--color-gray-700);
     font-size: 0.9rem;
 }
 
-.contact-card a:hover {
+.contact-card:hover span {
     color: var(--color-primary);
 }
 
