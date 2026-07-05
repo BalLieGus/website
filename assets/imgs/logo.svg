@@ -1,0 +1,83 @@
+<svg
+  width="1000"
+  height="1000"
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- Top M -->
+  <path
+    d="
+      M96 64
+      H192
+      L256 128
+      L320 64
+      H416
+      V128
+      H352
+      L256 192
+      L160 128
+      H96
+      Z
+    "
+    fill="#5A5A5A"
+  />
+
+  <!-- Left U -->
+  <path
+    d="
+      M96 128
+      V336
+      C96 400 160 432 224 432
+      V368
+      C192 368 160 352 160 320
+      V128
+      Z
+    "
+    fill="#1a8e46"
+  />
+
+  <!-- Right G -->
+  <path
+    d="
+      M416 128
+      V256
+      H304
+      V320
+      H352
+      V336
+      C352 352 336 368 304 368
+      H256
+      V432
+      H304
+      C368 432 416 400 416 336
+      V128
+      Z
+    "
+    fill="#5A5A5A"
+  />
+
+  <!-- Green block (touches M, same width as U) -->
+  <rect
+    x="352"
+    y="128"
+    width="64"
+    height="64"
+    fill="#1a8e46"
+  />
+
+  <!-- Brand name -->
+  <text
+    x="416"
+    y="245"
+    text-anchor="end"
+    font-size="65"
+    font-weight="400"
+    font-family="Agency FB, Arial Narrow, Arial, sans-serif"
+    fill="#000000"
+    letter-spacing="2"
+  >
+    BalLieGus
+  </text>
+
+</svg>
